@@ -1,0 +1,38 @@
+@import '../../@shared/themes/variable';
+.container-loading{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    img{
+        width: 90vw;
+    }
+}
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 20%;
+    height: 20px;
+    .progressbar-container{
+        width: 100%;
+        .progressbar{
+            background:$primary-color;
+            small{
+                display: block;
+                text-align: center;
+                color: $third-color;
+            }
+        }
+    }
+}
+.container-bounce{
+    display: flex;
+    .bounce{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: $third-color;
+    }
+
+}

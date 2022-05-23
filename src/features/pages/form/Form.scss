@@ -1,0 +1,35 @@
+@import '../../../@shared/themes/variable';
+.wrapper-form{
+    width: 90%;
+    margin: auto;
+    form{
+        width: 60%;
+        margin: auto;
+        display: grid;
+        row-gap: 10px;
+        div{
+            input,textarea{
+                width: 100%;
+                background: transparent;
+                border: none;
+                box-shadow: 1px 2px 5px #b5b6c593,
+                            -1px -2px 5px #c0c1cc93;
+                padding: 10px;
+                color: $primary-color;
+                outline: none;
+            }
+        }
+    }
+    .buttonNeomorphic{
+        background: $primary-color;
+        color: $secondary-color;
+        font-size: $text-size;
+        padding: 10px 20px ;
+        border: none;
+        &:hover{
+            background: $secondary-color;
+            color: $third-color;
+            cursor: pointer;
+        }
+    }
+}

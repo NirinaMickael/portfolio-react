@@ -1,0 +1,43 @@
+@import './@shared/themes/variable';
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h3,p,h1{
+    font-weight: normal;
+}
+html,body,#root{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.Title{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    .text{
+        font-size: $title-size;
+        color: $primary-color;
+    }
+}
+.icon-home{
+    position: absolute;
+    top: 0;
+    left: 46%;
+    svg{
+        &:hover{
+            color: #03045E;
+            cursor: pointer;
+        }
+    }
+}
+@media (max-width:500px){
+    .icon-home{
+        top: 5px;
+        left: 0;
+        right: 10px;
+    }
+}

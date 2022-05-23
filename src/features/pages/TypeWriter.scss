@@ -1,0 +1,18 @@
+@import '../../@shared/themes/variable';
+.container-writer{
+    align-self: center;
+    span{
+        font-size: $title-size;
+        padding: 10px;
+    }
+}
+@media (max-width:500px){
+    .container-writer{
+        justify-self: center;
+        grid-row: 2/3;
+        span{
+            font-size: $subtitle-size;
+            padding: 10px;
+        }
+    }
+}

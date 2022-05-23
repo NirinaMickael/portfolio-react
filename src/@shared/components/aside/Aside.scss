@@ -1,0 +1,22 @@
+@import '../../../@shared/themes/variable';
+.aside{
+    position: absolute;
+    height: max-content;
+    display: inline-grid;
+    justify-items: center;
+    .label{
+        display: block;
+        transform:rotate(90deg);
+        color: $primary-color;
+        font-size: $subtitle-size;
+    }    
+    .rule{
+        content: ' ';
+        display: block;
+        background-color: $primary-color;
+        margin :30px 0;
+    }
+    .active{
+        color: #e91b1b;
+    }
+}
